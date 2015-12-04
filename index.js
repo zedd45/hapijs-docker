@@ -1,6 +1,6 @@
-var Hapi = require('hapi');
+const Hapi = require('hapi');
 
-var server = module.exports = new Hapi.Server();
+const server = module.exports = new Hapi.Server();
 
 server.connection({ port: 3000 });
 

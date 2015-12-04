@@ -4,12 +4,14 @@
   "description": "docker image for hapijs",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "./node_modules/.bin/lab"
   },
   "keywords": [
     "hapijs",
     "docker"
   ],
+  "repository": "git@github.com:zedd45/hapijs-docker.git",
   "author": "Chris Keen <christopher.keen@gmail.com> (http://keenwebconcepts.com/)",
   "license": "MIT",
   "dependencies": {

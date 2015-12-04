@@ -7,6 +7,7 @@ const Lab = require('lab');
 
 
 // test setup
+
 const expect = Code.expect;
 const lab = exports.lab = Lab.script();
 const server = require('../index.js');
