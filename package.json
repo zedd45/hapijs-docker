@@ -1,0 +1,26 @@
+{
+  "name": "hapijs-docker",
+  "version": "1.0.0",
+  "description": "docker image for hapijs",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/lab"
+  },
+  "keywords": [
+    "hapijs",
+    "docker"
+  ],
+  "author": "Chris Keen <christopher.keen@gmail.com> (http://keenwebconcepts.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^11.1.2"
+  },
+  "devDependencies": {
+    "code": "^2.0.1",
+    "lab": "^7.3.0"
+  },
+  "engines": {
+    "node": ">=4.x.x <=5.x.x",
+    "npm": ">=2.x.x <=3.x.x"
+  }
+}
